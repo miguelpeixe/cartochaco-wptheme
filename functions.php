@@ -114,8 +114,8 @@ function jeo_enqueue_themeblank_scripts() {
 
 //        if(wp_style_is('submit_story_css', 'registered'))
 //		wp_enqueue_style('submit_story_css');
-        
-        // Parche para el boton de enviar del dataset.  
+
+        // Parche para el boton de enviar del dataset.
         if(wp_style_is('parche_jose_css', 'registered'))
 		wp_enqueue_style('parche_jose_css');
 
@@ -128,8 +128,7 @@ add_action('wp_enqueue_scripts', 'jeo_enqueue_themeblank_scripts', 12);
 
 // adding google material-desing icons set
 function md_icons_link() {
-    echo '<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">' . "\n";
-    echo '<link rel="shortcut icon" type="image/x-icon" href=“img/favicon.ico" />' . "\n";
+    echo '<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">' . "\n";
 
 	// text domain
 	//load_child_theme_textdomain('jeo-blank', get_stylesheet_directory() . '/languages');
@@ -250,7 +249,7 @@ add_action('after_setup_theme', 'jeoblank_setup');
     }
     return $query;
 }
-if (!is_admin() ) add_filter('pre_get_posts', 'dataset_posts_per_page’);*/
+if (!is_admin() ) add_filter('pre_get_posts', 'dataset_posts_per_pageâ€™);*/
 
 
 ?>

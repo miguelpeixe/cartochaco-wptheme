@@ -19,14 +19,14 @@
 							<span class="fa-stack fa-lg">
 								<a href="https://www.facebook.com/cartochaco" class="fb" title="Facebook" target="_blank">
 									<i class="fa fa-circle fa-stack-2x icon-background1"></i>
-									<i class="fa fa-facebook fa-stack-1x"></i>
+									<i class="fab fa-facebook-f fa-stack-1x"></i>
 								</a>
 							</span>
 
 							<span class="fa-stack fa-lg">
 								<a href="https://twitter.com/cartochaco" class="tw" title="Twitter" target="_blank">
 									<i class="fa fa-circle fa-stack-2x icon-background1"></i>
-									<i class="fa fa-twitter fa-stack-1x"></i>
+									<i class="fab fa-twitter fa-stack-1x"></i>
 								</a>
 							</span>
 

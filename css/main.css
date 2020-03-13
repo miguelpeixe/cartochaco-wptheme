@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,700,400italic);
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 /*
  * Less functions
  */
@@ -618,7 +618,7 @@ html#map-embed .map-container .leaflet-control-container .leaflet-top {
   border-color: #778e5a;
   color: #fff;
   /*&:after {
-							content: ''; 
+							content: '';
 							width: 0;
 							height: 0;
 							border-left: 10px solid transparent;
